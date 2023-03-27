@@ -7,7 +7,6 @@ import lombok.Data;
 
 @Data
 @Entity
-
 public class Contact {
     public @Id @GeneratedValue Long id;
     public String firstName;
